@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width,initial-scale = 1">
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <!-- <script src="../bootstrap/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="../css/number_of.css">
+    <script src="../js/swiper-3.4.2.min.js"></script>
+    <link rel="stylesheet" href="../css/swiper-3.4.2.min.css">
+</head>
+<body>
+<div class="contents">
+    <header>
+        <div class="head">
+            <div>
+                <a href="mine.html"><img src="../images/nav_back.png" alt=""></a>
+                <span class="segment seg_highlight" onclick="gotoIndex(this,0)" id="myAttention">推荐</span>
+                <span class="segment " onclick="gotoIndex(this,1)" id="myFans">赞</span>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="focus_on" >
+                        <div class = "recommended">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" >
+                    <div class="fans focus_on" >
+                        <div class="praise">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../js/number_of.js"></script>
+    </section>
+</div>
+</body>
+</html>
